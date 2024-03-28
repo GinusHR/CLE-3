@@ -2,3 +2,13 @@ body {
     background-color: #3B7631;
     font-family: "Roboto Light", sans-serif;
 }
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+}
+
+.logo {
+    max-width: 3rem;
+}
