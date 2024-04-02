@@ -14,3 +14,32 @@ body {
     max-width: 10rem;
 }
 
+section {
+    padding: 2rem;
+    border-bottom: 2px solid #90D14F;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#intro {
+    border-top: 2px solid #90D14F;
+
+}
+
+#intro-p {
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+#info-p {
+    margin-left: 15rem;
+    margin-right: 15rem;
+
+}
+
+footer {
+    background-color: #254f21;
+    padding: 3rem;
+}
+
