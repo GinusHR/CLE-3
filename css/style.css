@@ -7,18 +7,10 @@ body {
 .nav-bar {
     display: flex;
     flex-direction: row;
-    border-bottom: 2px solid black;
+
 }
 
 .logo {
-    max-width: 3rem;
-}
-
-.intro {
-    border-bottom: 2px solid black;
-}
-
-.info {
-    border-bottom: 2px solid black;
+    max-width: 10rem;
 }
 
