@@ -1,6 +1,7 @@
 body {
     background-color: #3B7631;
-    font-family: "Roboto Light", sans-serif;
+    font-family: 'Roobert', sans-serif;
+    margin: 0;
 }
 
 .nav-bar {
@@ -12,3 +13,12 @@ body {
 .logo {
     max-width: 3rem;
 }
+
+.intro {
+    border-bottom: 2px solid black;
+}
+
+.info {
+    border-bottom: 2px solid black;
+}
+
