@@ -47,6 +47,12 @@ section {
 }
 
 
+#museum-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .museum-card {
     margin: 5px;
     width: 20rem;
