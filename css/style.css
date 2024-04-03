@@ -8,11 +8,13 @@ body {
 .nav-bar {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+
 
 }
 
 .logo {
-    max-width: 10rem;
+    max-width: 20rem;
 }
 
 section {
@@ -23,15 +25,16 @@ section {
     text-align: center;
 }
 
-#intro {
-    border-top: 2px solid #90D14F;
+/*#intro {*/
+/*    border-top: 2px solid #90D14F;*/
 
-}
+/*}*/
 
 #intro-p {
     margin-left: 15rem;
     margin-right: 15rem;
     text-align: left;
+    font-size: 24px;
 
 }
 
@@ -39,6 +42,7 @@ section {
     margin-left: 15rem;
     margin-right: 15rem;
     text-align: left;
+    font-size: 24px;
 
 }
 .error {
