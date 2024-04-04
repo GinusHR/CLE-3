@@ -40,6 +40,7 @@ function succesHandler(data) {
         title.innerText = `${museum.name}`;
         const image = document.createElement('img');
         image.src = museum.img;
+        image.alt = museum.alt;
         const beschrijving = document.createElement('p');
         beschrijving.innerText = `${museum.tag}`
         const button = document.createElement('button');
