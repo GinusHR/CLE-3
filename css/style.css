@@ -9,10 +9,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
-
-
+    align-items: baseline;
 }
+
+
+.nav-bar h2 {
+    margin-bottom: -9vh;
+}
+
 
 .logo {
     max-width: 20rem;
@@ -77,6 +81,17 @@ section {
     height: 10rem;
 }
 
+.museum-card button {
+
+    font-family: 'Spoof', sans-serif;
+    width: 4rem;
+    height: 2rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #254f21;
+    color: white;
+    font-size: 16px;
+}
 
 .modal {
     opacity: 0;

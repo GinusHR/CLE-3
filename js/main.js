@@ -43,7 +43,7 @@ function succesHandler(data) {
         const beschrijving = document.createElement('p');
         beschrijving.innerText = `${museum.tag}`
         const button = document.createElement('button');
-        button.innerText = 'info';
+        button.innerText = 'Info';
         button.dataset.id = museum.id;
 
 
