@@ -12,9 +12,10 @@ function init() {
     getData(dataUrl);
     infoField.addEventListener("click", clickHandler)
     dialog = document.getElementById('museum-detail');
-    dialogContent = document.getElementById('modal-content')
+    dialogContent = document.getElementById('modal-content');
     dialogExit = document.getElementById('modal-close');
     dialogExit.addEventListener('click', dialogCloseHandler);
+    dialog.addEventListener('click', dialogOutsideHandler);
 }
 
 
@@ -82,6 +83,12 @@ function clickHandler(e) {
 
 function dialogCloseHandler() {
     dialog.close();
+}
+
+function dialogOutsideHandler(e) {
+    if(e.target === dialog) {
+        dialog.close();
+    }
 }
 
 function errorHandler(error) {
