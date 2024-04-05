@@ -70,7 +70,7 @@ section {
 .museum-card {
     margin: 5px;
     width: 20rem;
-    height: 20rem;
+    height: 22rem;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -81,21 +81,25 @@ section {
     transform-origin: center;
 }
 
+.museum-card p {
+    font-size: 18px
+}
+
 .museum-card img {
     width: 100%;
     height: 10rem;
 }
 
 .museum-card button {
-
     font-family: 'Spoof', sans-serif;
-    width: 4rem;
-    height: 2rem;
+    width: 14rem;
+    height: 3rem;
     border: 2px solid white;
     border-radius: 10px;
     background-color: #254f21;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .modal {
