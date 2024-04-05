@@ -1,5 +1,5 @@
 body {
-    background-color: #3B7631;
+    background-color: #488F3E;
     font-family: 'Roobert', sans-serif;
     margin: 0;
     color: white;
@@ -14,7 +14,11 @@ body {
 
 
 .nav-bar h2 {
-    margin-bottom: -9vh;
+    margin-bottom: -5vh;
+    border: solid #C66911 2px;
+    border-radius: 1rem;
+    background-color: #C66911   ;
+    padding: 2rem 4rem;
 }
 
 
@@ -137,22 +141,10 @@ section {
     color: white;
 }
 
-
-/*.modal-content h1 {*/
-/*    margin: 0;*/
-/*    padding: 20px;*/
-/*    background-color: #041c31;*/
-/*    color: #FFFF00;*/
-/*    text-transform: capitalize;*/
-/*    font-size: 3vh;*/
-/*    text-align: center;*/
-/*}*/
-
 .modal-content img {
     width: 50rem;
     height: 25rem;
 }
-
 
 .modal-content::after {
     content: "";
