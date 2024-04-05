@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: baseline;
+    align-items: center;
 }
 
 
@@ -59,7 +59,8 @@ section {
 #museum-info {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 11rem;
 }
 
 .museum-card {
