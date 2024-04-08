@@ -45,6 +45,7 @@ function succesHandler(data) {
         beschrijving.innerText = `${museum.tag}`
         const button = document.createElement('button');
         button.innerText = 'Info';
+        button.alt = 'knop die gaat naar de beschrijving van het bovenstaande museum'
         button.dataset.id = museum.id;
 
 
