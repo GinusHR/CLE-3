@@ -1,6 +1,6 @@
 window.addEventListener("load", init);
 
-const dataUrl = '/CLE-3/webservice/index.php';
+const dataUrl = './CLE-3/webservice/index.php';
 let infoField;
 let museumData = {};
 let dialog;
