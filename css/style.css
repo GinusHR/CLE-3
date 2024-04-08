@@ -185,6 +185,10 @@ section {
     font-size: 24px ;
 }
 
+#doomguy {
+    height: 3rem;
+}
+
 footer {
     background-color: #254f21;
     padding: 3rem;
