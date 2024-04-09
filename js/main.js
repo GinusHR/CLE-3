@@ -1,6 +1,6 @@
 window.addEventListener("load", init);
 
-const dataUrl = '../webservice/index.php';
+const dataUrl = './webservice/index.php';
 let infoField;
 let museumData = {};
 let dialog;
